@@ -3,124 +3,127 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Sandeep Kumar Arya | QA Lead</title>
-  <link rel="stylesheet" href="style.css" />
+  <title>Sandeep Arya | QA Lead – FinTech</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  <!-- ===== Navbar ===== -->
-  <header>
-    <nav class="navbar">
-      <div class="logo">Sandeep Arya</div>
-      <ul class="nav-links" id="navLinks">
-        <li><a href="#about">About</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#experience">Experience</a></li>
-        <li><a href="#education">Education</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-      <div class="menu-toggle" onclick="toggleMenu()">☰</div>
-    </nav>
-  </header>
-
-  <!-- ===== Hero Section ===== -->
-  <section class="hero">
-    <h1>Sandeep Kumar Arya</h1>
-    <p>QA Lead | FinTech & Payments | Automation Expert</p>
+<!-- NAVBAR -->
+<header>
+  <div class="logo">SA</div>
+  <nav id="nav">
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#experience">Experience</a>
     <a href="#contact" class="btn">Hire Me</a>
-  </section>
+  </nav>
+  <div class="menu" onclick="toggleMenu()">☰</div>
+</header>
 
-  <!-- ===== About ===== -->
-  <section id="about" class="section">
-    <h2>About Me</h2>
+<!-- HERO -->
+<section id="home" class="hero">
+  <div class="hero-text">
+    <h1>QA Lead & Automation Expert</h1>
     <p>
-      Seasoned QA Lead with 10+ years of experience in manual and automated testing
-      across web, mobile, and Android POS platforms. Specialized in banking and
-      payment systems with certifications in RuPay, VISA, MasterCard, and AmEx.
-      Proven leader with strong Agile delivery experience.
+      10+ Years | FinTech • POS • Payments • EMV • Automation
     </p>
-  </section>
-
-  <!-- ===== Skills ===== -->
-  <section id="skills" class="section gray">
-    <h2>Skills</h2>
-    <div class="skills-grid">
-      <div class="skill-card">Selenium</div>
-      <div class="skill-card">Appium</div>
-      <div class="skill-card">Robot Framework</div>
-      <div class="skill-card">Postman</div>
-      <div class="skill-card">Java</div>
-      <div class="skill-card">Python</div>
-      <div class="skill-card">Android POS</div>
-      <div class="skill-card">Agile / Scrum</div>
-      <div class="skill-card">EMVCo / ISO 8583</div>
-      <div class="skill-card">Git / Bitbucket</div>
+    <div class="hero-actions">
+      <a href="#contact" class="btn primary">Contact Me</a>
+      <a href="#" class="btn outline">Download Resume</a>
     </div>
-  </section>
+  </div>
 
-  <!-- ===== Experience ===== -->
-  <section id="experience" class="section">
-    <h2>Professional Experience</h2>
+  <div class="hero-graphic">
+    <svg viewBox="0 0 200 200">
+      <circle cx="100" cy="100" r="90" />
+      <text x="50%" y="50%" text-anchor="middle" dy=".3em">QA</text>
+    </svg>
+  </div>
+</section>
 
-    <div class="timeline">
-      <div class="timeline-item">
-        <h3>QA Lead – Ingenico</h3>
-        <span>Mar 2023 – Present</span>
-        <ul>
-          <li>Leading QA teams across APAC for POS payment applications</li>
-          <li>Managing L3 certifications (RBI, NPCI, EMVCo, RuPay, VISA)</li>
-          <li>Built automation framework using Appium, Python & Robot Framework</li>
-          <li>Reduced regression testing effort significantly</li>
-        </ul>
-      </div>
+<!-- ABOUT -->
+<section id="about" class="section">
+  <h2>About Me</h2>
+  <p class="lead">
+    I’m a seasoned <strong>QA Lead</strong> specializing in
+    <strong>banking & payment systems</strong> including RuPay, VISA,
+    MasterCard, AmEx, and Android POS solutions.
+  </p>
 
-      <div class="timeline-item">
-        <h3>Test Lead – Manipal Business Solutions</h3>
-        <span>Jul 2019 – Mar 2023</span>
-        <ul>
-          <li>Led QA for AEPS, BBPS, Recharge & Insurance services</li>
-          <li>Managed manual & automation testers</li>
-          <li>Handled end-to-end SDLC testing activities</li>
-        </ul>
-      </div>
+  <div class="stats">
+    <div><span>10+</span>Years Experience</div>
+    <div><span>30+</span>Projects Delivered</div>
+    <div><span>5+</span>Certifications</div>
+  </div>
+</section>
 
-      <div class="timeline-item">
-        <h3>Senior Software Engineer – Entab Infotech</h3>
-        <span>Jul 2015 – Jun 2019</span>
-        <ul>
-          <li>Functional, UI, and regression testing of ERP systems</li>
-          <li>Bug tracking, SRS documentation, and client training</li>
-        </ul>
-      </div>
+<!-- SKILLS -->
+<section id="skills" class="section dark">
+  <h2>Core Skills</h2>
+
+  <div class="skill-grid">
+    <div class="skill-card">Selenium</div>
+    <div class="skill-card">Appium</div>
+    <div class="skill-card">Robot Framework</div>
+    <div class="skill-card">Java</div>
+    <div class="skill-card">Python</div>
+    <div class="skill-card">Android POS</div>
+    <div class="skill-card">EMV / ISO 8583</div>
+    <div class="skill-card">Agile / Scrum</div>
+  </div>
+</section>
+
+<!-- EXPERIENCE -->
+<section id="experience" class="section">
+  <h2>Professional Experience</h2>
+
+  <div class="timeline">
+
+    <div class="timeline-item">
+      <h3>QA Lead – Ingenico</h3>
+      <span>2023 – Present</span>
+      <p>
+        Leading APAC QA teams for POS payment systems, handling EMV,
+        RuPay, VISA, MasterCard certifications and automation frameworks.
+      </p>
     </div>
-  </section>
 
-  <!-- ===== Education ===== -->
-  <section id="education" class="section gray">
-    <h2>Education</h2>
-    <p>
-      <strong>B.Tech in Electronics & Communication Engineering</strong><br/>
-      Uttar Pradesh Technical University, 2014
-    </p>
-  </section>
+    <div class="timeline-item">
+      <h3>Test Lead – Manipal Business Solutions</h3>
+      <span>2019 – 2023</span>
+      <p>
+        Owned QA delivery for AEPS, BBPS, Recharge & Insurance platforms.
+      </p>
+    </div>
 
-  <!-- ===== Contact ===== -->
-  <section id="contact" class="section">
-    <h2>Contact</h2>
-    <p>Email: <a href="mailto:example@gmail.com">example@gmail.com</a></p>
-    <p>Phone: +91 9876543210</p>
-    <p>
-      LinkedIn:
-      <a href="https://www.linkedin.com/in/example/" target="_blank">
-        linkedin.com/in/example
-      </a>
-    </p>
-  </section>
+    <div class="timeline-item">
+      <h3>Senior Software Engineer – Entab</h3>
+      <span>2015 – 2019</span>
+      <p>
+        Functional, UI & regression testing of ERP solutions.
+      </p>
+    </div>
 
-  <footer>
-    <p>© 2025 Sandeep Kumar Arya</p>
-  </footer>
+  </div>
+</section>
 
-  <script src="script.js"></script>
+<!-- CONTACT -->
+<section id="contact" class="section dark">
+  <h2>Let’s Work Together</h2>
+  <p class="lead">Open for leadership & consulting roles</p>
+
+  <div class="contact-box">
+    <p>📧 example@gmail.com</p>
+    <p>📞 +91 9876543210</p>
+    <p>🔗 LinkedIn Profile</p>
+  </div>
+</section>
+
+<footer>
+  © 2025 Sandeep Kumar Arya
+</footer>
+
+<script src="script.js"></script>
 </body>
 </html>
